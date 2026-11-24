@@ -20,7 +20,7 @@ The point isn't just "Claude can run `docker` commands" — Claude Code can alre
 Requires Docker (Desktop / OrbStack / colima) and Claude Code.
 
 ```bash
-claude mcp add dock node /Users/parkerlabonte/dock/bin/dock.js
+claude mcp add dock node /path/to/dock/bin/dock.js
 ```
 
 Or edit `~/.claude.json` manually:
@@ -30,7 +30,7 @@ Or edit `~/.claude.json` manually:
   "mcpServers": {
     "dock": {
       "command": "node",
-      "args": ["/Users/parkerlabonte/dock/bin/dock.js"]
+      "args": ["/path/to/dock/bin/dock.js"]
     }
   }
 }

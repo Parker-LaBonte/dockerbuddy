@@ -84,7 +84,7 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "DrPiggins",
+      "owner": "Parker-LaBonte",
       "repo": "dockerbuddy",
       "releaseType": "release"
     }

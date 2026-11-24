@@ -1,6 +1,6 @@
 # DockerBuddy — Claude Code orientation
 
-You're working in DockerBuddy, an Electron + React desktop app that wraps the [`dock`](https://github.com/parkerlabonte/dock) MCP server (Docker tools for Claude Code) and adds a guided setup wizard, remote-host onboarding, and a live dashboard.
+You're working in DockerBuddy, an Electron + React desktop app that wraps the [`dock`](../dock) MCP server (Docker tools for Claude Code) and adds a guided setup wizard, remote-host onboarding, and a live dashboard.
 
 Read this whole file before you change anything. The architecture has a few non-obvious shapes that will bite you if you skip it.
 

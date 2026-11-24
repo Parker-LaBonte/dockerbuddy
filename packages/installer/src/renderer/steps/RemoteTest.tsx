@@ -54,7 +54,7 @@ export function RemoteTest({
         <input
           value={cfg.ip}
           onChange={(e) => setCfg({ ...cfg, ip: e.target.value.trim() })}
-          placeholder="192.168.0.133"
+          placeholder="192.168.1.10"
           className="bg-navy-800 border border-navy-600 rounded-2xl px-4 py-2.5 font-mono text-white focus:outline-none focus:border-whale-400 focus:ring-2 focus:ring-whale-500/30"
         />
         <label className="text-sm text-whale-200/80 self-center">Username</label>

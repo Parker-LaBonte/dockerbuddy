@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const GH_RELEASES = "https://github.com/DrPiggins/dockerbuddy/releases/latest";
+const GH_RELEASES = "https://github.com/Parker-LaBonte/dockerbuddy/releases/latest";
 const VERSION = "1.0.3";
 const DMG_ARM64_URL = `${GH_RELEASES}/download/DockerBuddy-${VERSION}-arm64.dmg`;
 const DMG_X64_URL = `${GH_RELEASES}/download/DockerBuddy-${VERSION}-x64.dmg`;
@@ -40,7 +40,7 @@ function Nav() {
         </Link>
         <div className="flex items-center gap-2 sm:gap-4">
           <a
-            href="https://github.com/DrPiggins/dockerbuddy"
+            href="https://github.com/Parker-LaBonte/dockerbuddy"
             className="hidden text-sm text-muted transition hover:text-foreground sm:inline"
           >
             GitHub
@@ -524,7 +524,7 @@ function Footer() {
         </div>
         <div className="flex items-center gap-6">
           <a
-            href="https://github.com/DrPiggins/dockerbuddy"
+            href="https://github.com/Parker-LaBonte/dockerbuddy"
             className="transition hover:text-foreground"
           >
             GitHub
